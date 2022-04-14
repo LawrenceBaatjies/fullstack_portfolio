@@ -7,7 +7,7 @@ import {
   Skills,
   Testimonial,
   Work } from './container';
-  import { Navbar } from './components';
+  import { Navbar } from './components/Navbar';
   import './App.scss';
 
 const App = () => {
