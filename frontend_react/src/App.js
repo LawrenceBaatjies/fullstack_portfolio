@@ -7,12 +7,13 @@ import {
   Skills,
   Testimonial,
   Work } from './container';
-// import index.js from '/.components/header';
-// import { Navbar } from './components';
+  import { Navbar } from './components';
+  import './App.scss';
 
 const App = () => {
   return (
    <div className="app">
+   <Navbar />
    <Header />
    <About />
    <Work />
