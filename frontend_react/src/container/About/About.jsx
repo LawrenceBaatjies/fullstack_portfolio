@@ -4,10 +4,10 @@ import { images } from '../../constants'
 import './About.scss';
 
 const about = [
-  { title: 'Full Stack P.R.E.N Web Dev', description: 'I am a passionate web developer.', imgUrl: 'about01' },
-  { title: 'Web Design', description: 'I create simple yet elegant websites.', imgUrl: 'about02' },
-  { title: 'UI/UX', description: 'I create beautiful UI/UX designs.', imgUrl: 'about03' },
-  { title: ' Database/Back-end', description: 'I create secure and encrypted databases', imgUrl: 'about04' },
+  { title: 'Full Stack P.R.E.N Web Dev', description: 'I am a passionate web developer.', imgUrl: images.about01 },
+  { title: 'Web Design', description: 'I create simple yet elegant websites.', imgUrl: images.about02  },
+  { title: 'UI/UX', description: 'I create beautiful UI/UX designs.', imgUrl: images.about03  },
+  { title: ' Database/Back-end', description: 'I create secure and encrypted databases', imgUrl: images.about04 },
   { title: 'Ethical Hacker', description: 'Cyber Security & Web Penetration Tester.', imgUrl: '' }
 ];
 const About = () => {
