@@ -8,18 +8,15 @@ const about = [
   { title: 'Web Design', description: 'I create simple yet elegant websites.', imgUrl: images.about02  },
   { title: 'UI/UX', description: 'I create beautiful UI/UX designs.', imgUrl: images.about03  },
   { title: ' Database/Back-end', description: 'I create secure and encrypted databases', imgUrl: images.about04 },
-  { title: 'Ethical Hacker', description: 'Cyber Security & Web Penetration Tester.', imgUrl: '' }
+  { title: 'SEO Specialist', description: 'Gain Organic Ranking through SEO', imgUrl: images.about01 },
+  { title: 'Ethical Hacker', description: 'Cyber Security & Web Penetration Testing.', imgUrl: images.about02 }
 ];
 const About = () => {
   return (
     <>
 
-      <h2 classNAme="head-text">
-        I Know that...
-        <span>Good Designs</span>
-        <br />
-        Means...
-        <span>Good Business</span>
+      <h2 className="head-text">
+        I Know that <span> Good Quality Apps</span><br /> Means <span>Good Business.</span>
       </h2>
       <div className="app__profiles">
         {about.map((about, index) => (
