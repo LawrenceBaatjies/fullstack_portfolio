@@ -3,8 +3,11 @@ import {  FaFacebookF } from 'react-icons/fa';
 
 import { 
         BsTwitter, 
-        BsInstagram,
-        BsGithub,BsWhatsapp 
+        BsGithub,BsWhatsapp, 
+        BsStackOverflow, 
+        BsMedium,
+        BsLinkedin,
+        BsSlack
         } from 'react-icons/bs';
 
 const SocialMedia = () => {
@@ -14,10 +17,19 @@ const SocialMedia = () => {
         <BsWhatsapp />
       </div>
       <div>
+        <BsSlack/>
+      </div>
+      <div>
         <FaFacebookF />
       </div>
       <div>
-        <BsInstagram />
+        <BsLinkedin   />
+      </div>
+      <div>
+        <BsStackOverflow />
+      </div>
+      <div>
+        <BsMedium />
       </div>
       <div>
         <BsTwitter />
